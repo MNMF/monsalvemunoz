@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-/* Back to top button */
+/* volver inicio */
 .back-to-top {
   position: fixed;
   display: none;
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Top Bar
+# barra superior
 --------------------------------------------------------------*/
 #topbar {
   padding: 10px 0;
@@ -498,7 +498,7 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
-/* Mobile Nav body classes */
+
 body.mobile-nav-active {
   overflow: hidden;
 }
@@ -537,9 +537,7 @@ Inner Banner
 .svgImg img{
 	width:120px;
 }
-/*--------------------------------------------------------------
-# Sección
---------------------------------------------------------------*/
+
 /*  Header
 --------------------------------*/
 .section-header {
@@ -580,37 +578,37 @@ Inner Banner
 
 /*  Nosotros
 --------------------------------*/
-#about {
+#nosotros {
   padding: 90px 0 90px 0;
 }
 
-#about .about-img {
+#nosotros .nosotros-img {
   overflow: hidden;
 }
 
-#about .about-img img {
+#nosotros .nosotros-img img {
   margin-left: -15px;
   max-width: 100%;
 }
 
 @media (max-width: 768px) {
-  #about .about-img {
+  #nosotros .nosotros-img {
     height: auto;
   }
-  #about .about-img img {
+  #nosotros .nosotros-img img {
     margin-left: 0;
     padding-bottom: 30px;
   }
 }
 
-#about .content h2 {
+#nosotros .content h2 {
   color: #000000;
   font-weight: 700;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
 }
 
-#about .content h3 {
+#nosotros .content h3 {
   color: #555;
   font-weight: 300;
   font-size: 18px;
@@ -618,36 +616,36 @@ Inner Banner
   font-style: italic;
 }
 
-#about .content p {
+#nosotros .content p {
   line-height: 26px;
 }
 
-#about .content p:last-child {
+#nosotros .content p:last-child {
   margin-bottom: 0;
 }
 
-#about .content i {
+#nosotros .content i {
   font-size: 20px;
   padding-right: 4px;
   color: #596bf3;
 }
 
-#about .content ul {
+#nosotros .content ul {
   list-style: none;
   padding: 0;
 }
 
-#about .content ul li {
+#nosotros .content ul li {
   padding-bottom: 10px;
 }
 
 /* Servicios
 --------------------------------*/
-#services {
+#servicios {
   padding: 60px 0 0 0;
 }
 
-#services .box {
+#servicios .box {
   padding: 40px;
   margin-bottom: 40px;
   background: #fff;
@@ -655,21 +653,21 @@ Inner Banner
   border: 1px solid #dedede;
 }
 
-#services .box:hover {
+#servicios .box:hover {
   box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
   transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
   -moz-transform: translateY(-10px);
 }
 
-#services .box .icon {
+#servicios .box .icon {
   display: block;
   width: 100%;
   text-align: center;
   padding: 15px;
 }
 
-#services .box .icon i {
+#servicios .box .icon i {
   color: #444;
   font-size: 44px;
   transition: 0.5s;
@@ -677,14 +675,14 @@ Inner Banner
   margin-top: 0px;
 }
 
-#services .box .icon i:before {
+#servicios .box .icon i:before {
   background: #278bf2;
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-#services .box h4 {
+#servicios .box h4 {
   margin-left: 100px;
   font-weight: 700;
   margin-bottom: 24px;
@@ -696,11 +694,11 @@ Inner Banner
   margin: 0;
 }
 
-#services .box h4 a {
+#servicios .box h4 a {
   color: #444;
 }
 
-#services .box p {
+#servicios .box p {
   font-size: 14px;
   line-height: 24px;
   text-align: center;
@@ -710,15 +708,15 @@ Inner Banner
 }
 
 @media (max-width: 767px) {
-  #services .box .box {
+  #servicios .box .box {
     margin-bottom: 20px;
   }
-  #services .box .icon {
+  #servicios .box .icon {
     float: none;
     text-align: center;
     padding-bottom: 15px;
   }
-  #services .box h4, #services .box p {
+  #servicios .box h4, #services .box p {
     margin-left: 0;
     text-align: center;
   }
@@ -934,31 +932,31 @@ p.help-block li {
 }
 /* Acción
 --------------------------------*/
-#call-to-action {
+#llamada-accion {
   background: #278bf2;
   background-size: cover;
   padding: 40px 0;
 }
 
-#call-to-action .cta-title {
+#llamada-accion .cta-title {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#call-to-action .cta-text {
+#llamada-accion .cta-text {
   color: #fff;
 }
 
 @media (min-width: 769px) {
-  #call-to-action .cta-btn-container {
+  #llamada-accion .cta-btn-container {
     display: flex;
     align-items: center;
     justify-content: flex-end;
   }
 }
 
-#call-to-action .cta-btn {
+#llamada-accion .cta-btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -972,7 +970,7 @@ p.help-block li {
   color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
+#llamada-accion .cta-btn:hover {
   background: #ffffff;
   border: 3px solid #ffffff;
   color: #00a3d1;
